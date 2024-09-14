@@ -23,11 +23,40 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className='bg-[#DDEAFF]' style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          border: '1px solid black',
+          height: '5vh',
+          fontWeight: 'bold',
+          maxWidth: '100%'
+
+          
+        }}>
+          <nav style={{
+            
+          }}>
+            <a style={{
+              marginInline: '2vw'
+            }}>Home</a>
+            <a style={{
+              marginInline: '2vw'
+            }}>About</a>
+            <a style={{
+              marginInline: '2vw'
+            }}>Contact</a>
+            <a style={{
+              marginInline: '2vw'
+            }}>Contact</a>
+          </nav>
+        </div>
         {children}
       </body>
     </html>

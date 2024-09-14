@@ -1,0 +1,32 @@
+.rubik-bubbles-regular {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+  height: 75%;
+  max-width: 25% !important;
+  margin-inline: 5%;
+  background: red;
+  border-radius: 5%;
+  padding: 2%;
+}
+
+.card{
+  background-color: white;
+  min-height: 50%;
+  max-width: 50%;
+  opacity: 0.75;
+  border-radius: 5%;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1vw;
+
+}
+
+h1{
+  font-size: 7.5vw !important;
+}
